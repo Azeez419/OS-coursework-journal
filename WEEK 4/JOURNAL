@@ -1,0 +1,66 @@
+
+WEEK 4: JOURNAL 	PHASE 4: Initial System Configuration & Security
+Task: System configuration and security setup using SSH
+Machines Used: Linux Mint (workstation) and Ubuntu (server)
+
+1. SSH Key-Based Authentication
+For this part, I used Linux Mint to connect to my Ubuntu server.
+I created an SSH key on Linux Mint and copied it to Ubuntu using:
+
+ssh-copy-id abdulazeez@192.168.56.101
+
+After that, I tested the connection and it logged me in without asking for a password, which shows the key-based authentication is working.
+ 
+
+2. Firewall Configuration (Only allow Mint to connect)
+On Ubuntu, I enabled the firewall (UFW) and set it so only my Mint machine (192.168.56.102) can connect through SSH.  
+Commands used:
+
+sudo ufw enable
+sudo ufw allow from 192.168.56.102 to any port 22
+sudo ufw deny 22
+sudo ufw status verbose
+ 
+
+3. sshd_config Before and After Change
+I opened the SSH config file using:
+
+sudo nano /etc/ssh/sshd_config
+
+My file didn’t have “PasswordAuthentication yes”, so I added:
+PasswordAuthentication no
+Then restarted SSH:
+sudo systemctl restart ssh
+
+  
+4. Creating a Non-Root Admin User
+I created a new admin user called adminuser:
+
+sudo adduser adminuser
+sudo usermod -aG sudo adminuser
+
+Then switched to the account and tested sudo:
+
+su - adminuser
+sudo apt update
+
+ 
+5. Remote Administration Through SSH
+All my changes on Ubuntu were done from Linux Mint using SSH.
+
+Commands like:
+sudo apt update
+uname -a
+
+prove the remote management is working.
+
+6. Firewall Rules Documentation (Numbered)
+I used:
+
+sudo ufw status numbered
+
+This shows the exact firewall rule order.
+
+Conclusion
+In Week 4, I configured secure access to my server. I set up SSH keys, updated the SSH configuration, created an admin user, and restricted the firewall to only my workstation. Everything was done through SSH with screenshots as evidence.
+
