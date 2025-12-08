@@ -1,1 +1,78 @@
+Week 1 Journal – System Planning & Distribution Selection
+Module: Operating Systems
+Assessment: Week 1 – Phase 1: System Planning and Distribution Selection
+
+1.	System Architecture Diagram
+
+ 
+Notes:
+I used my laptop as the host and set up two virtual machines inside VirtualBox. One is the Ubuntu Server, and the other is Linux Mint. I added both NAT (so they can use the internet) and Host-Only (so they can connect to each other). Each one got its own IP address 192.168.56.101 for Ubuntu and 192.168.56.102 for Mint. I tested both with ping and they worked fine.
+
+2.	Distribution Selection Justification
+Chosen Server Distro: Ubuntu Server 24.04.3 LTS
+Alternatives Considered: Debian 12, Rocky Linux 9
+Comparison:
+•	Ubuntu Server 24.04.3 LTS: Beginner-friendly, lots of documentation, frequent updates, easy networking setup.
+•	Debian 12: Very stable but older packages.
+•	Rocky Linux 9: Enterprise-grade stability but fewer desktop support tools.
+Decision:
+I chose Ubuntu Server 24.04.3 LTS because it’s stable, modern, and supported by a large community. It works well on my laptop, has simple commands, and fits the learning goals of the Operating Systems module.
+
+3.	Workstation Configuration Decision
+Chosen Workstation: Linux Mint 22.2 “Zara” (Cinnamon)
+Reasons:
+•	User-friendly interface and very similar to Ubuntu (same base).
+•	Easier to take screenshots and access files.
+•	Perfect for practicing both GUI and terminal commands.
+•	Stable and lightweight enough to run smoothly in VirtualBox.
+
+4.	Network Configuration
+VirtualBox Settings:
+•	Adapter 1: NAT (Internet)
+•	Adapter 2: Host-Only Adapter → VirtualBox Host-Only Ethernet Adapter (192.168.56.1)
+IP Addresses:
+•	The Ubuntu Server is configured with a Host-Only adapter and assigned the IP address 192.168.56.101. It serves as the main server in the setup.
+•	The Linux Mint virtual machine also uses a Host-Only adapter, with the IP address 192.168.56.102, functioning as a workstation.
+
+Connectivity Tests:
+From Server → Workstation:  ping 192.168.56.102  
+From Workstation → Server:  ping 192.168.56.101  
+
+5.	CLI Evidence – System Specifications
+Ubuntu Server (192.168.56.101)
+ 
+uname -a
+Linux Ubuntu 6.14.0-33-generic #33~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 17:02:30 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+free -h
+Mem: 3.8Gi used: 1.0Gi free: 624Mi swap: 0B
+df -h
+/dev/sda2  46G total, 6.6G used, 37G free (16%)
+ip addr
+inet 192.168.56.101/24  scope global dynamic enp0s3
+lsb_release -a
+Distributor ID: Ubuntu
+Description:    Ubuntu 24.04.3 LTS
+Release:        24.04
+Codename:       noble
+________________________________________
+Linux Mint Workstation (192.168.56.102)
+
+ 
+
+uname -a
+Linux azeez@VirtualBox 6.14.0-29-generic #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Aug 14 16:52:50 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+free -h
+Mem: 8.6Gi used: 1.5Gi free: 3.5Gi swap: 2.0Gi
+df -h
+/dev/sda3  24G total, 9.1G used, 14G free (40%)
+ip addr
+inet 192.168.56.102/24  scope global dynamic enp0s3
+lsb_release -a
+Distributor ID: LinuxMint
+Description:   Linux Mint 22.2
+Release:      	22.2
+Codename:	zara
+
+
+
 
