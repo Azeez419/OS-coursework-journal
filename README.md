@@ -7,9 +7,9 @@ The work here shows what I did each week during the labs.
 It includes the commands I ran, screenshots as evidence, explanations of the tasks,
 and short reflections on what I learned.
 
----
 
-## 📂 Coursework Index
+
+## Coursework Index
 
 - [Week 1](./WEEK%201) – Linux setup and basic terminal commands  
 - [Week 2](./WEEK%202) – File permissions and SSH configuration  
@@ -19,7 +19,7 @@ and short reflections on what I learned.
 - [Week 6](./WEEK%206) – AppArmor configuration and system security  
 - [Week 7](./WEEK%207) – Final lab tasks and reflection  
 
----
+
 
 ##  Student Details
 
