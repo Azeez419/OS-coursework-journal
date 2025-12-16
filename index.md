@@ -1,1 +1,27 @@
+# Operating Systems Coursework Journal
+
+This repository contains my weekly Operating Systems coursework for my
+BSc Software Engineering degree at the University of Roehampton.
+
+The work documents what I completed each week during the lab sessions.
+It includes the commands I ran, screenshots as evidence, explanations of the tasks,
+and short reflections on what I learned throughout the module.
+
+## Coursework Index
+
+- [Week 1](./WEEK%201) – System planning and Linux server setup  
+- [Week 2](./WEEK%202) – Security planning and testing methodology  
+- [Week 3](./WEEK%203) – Application selection for performance testing  
+- [Week 4](./WEEK%204) – SSH configuration, firewall setup, and user management  
+- [Week 5](./WEEK%205) – Advanced security controls and monitoring scripts  
+- [Week 6](./WEEK%206) – Performance evaluation and system optimisation  
+- [Week 7](./WEEK%207) – Security audit, system evaluation, and reflection  
+
+## Student Details
+
+**Name:** Azeez Jibola Akindele  
+**Student ID:** 23597614  
+**Course:** BSc Software Engineering  
+**Module:** Operating Systems
+
 
