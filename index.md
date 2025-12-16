@@ -3,6 +3,8 @@
 This repository contains my weekly Operating Systems coursework for my
 BSc Software Engineering degree at the University of Roehampton.
 
+### WEEKLY JOURNALS
+
 ### [WEEK 1 – System planning and Distribution Selection](./WEEK%201/week1_assessments.pdf)
 ### [WEEK 2 – Security planning and Testing methodology](./WEEK%202/week2_assessments.pdf)
 ### [WEEK 3 – Application selection for performance testing](./WEEK%203/week3_assessments.pdf)
