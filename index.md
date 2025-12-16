@@ -9,7 +9,7 @@ and short reflections on what I learned throughout the module.
 
 ## Coursework Index
 
-### [Week 1 – System planning and Distribution Selection](week1/week1_Assessments OS.pdf)
+### [Week 1 – System planning and Distribution Selection](week1/week1_Assessments_OS.pdf)
 - [Week 2](./WEEK%202) – Security planning and Testing methodology  
 - [Week 3](./WEEK%203) – Application selection for performance testing  
 - [Week 4](./WEEK%204) – Initial Sytem Configuration & Security Implementation 
