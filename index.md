@@ -10,8 +10,8 @@ BSc Software Engineering degree at the University of Roehampton.
 ### [WEEK 3 – Application selection for performance testing](./WEEK%203/week3_assessments.pdf)
 ### [WEEK 4 – Initial System Configuration & Security Implementation](./WEEK%204/week4_assessments.pdf)
 ### [WEEK 5 – Advanced security controls and monitoring Infrastructure](./WEEK%205/week5_assessments.pdf)
-### [WEEK 6 – Performance evaluation and Analysis](./WEEK%206/week6_assessments.pdf)
-### [WEEK 7 – Security audit & system evaluation](./WEEK%207/week7_assessments.pdf)
+### [WEEK 6 – Performance evaluation and Analysis](./WEEK%206/week6_assessment.pdf)
+### [WEEK 7 – Security audit & system evaluation](./WEEK%207/week7_assessment.pdf)
 
 
 
