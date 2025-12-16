@@ -9,13 +9,13 @@ and short reflections on what I learned throughout the module.
 
 ## Coursework Index
 
-### [Week 1 – System planning and Distribution Selection](week1/week1_Assessments_OS.pdf)
-- [Week 2](./WEEK%202) – Security planning and Testing methodology  
-- [Week 3](./WEEK%203) – Application selection for performance testing  
-- [Week 4](./WEEK%204) – Initial Sytem Configuration & Security Implementation 
-- [Week 5](./WEEK%205) – Advanced security controls and monitoring Infrastructure  
-- [Week 6](./WEEK%206) – Performance evaluation and Analysis
-- [Week 7](./WEEK%207) – Security audit & system evaluation
+### [Week 1 – System planning and Distribution Selection](week1/week1_assessments.pdf)
+### [Week 2 – Security planning and Testing methodology](week2/week2_assessments.pdf) 
+### [Week 3 – Application selection for performance testing](week3/week3_assessments.pdf)   
+### [Week 4 – Initial Sytem Configuration & Security Implementation](week4/week4_assessments.pdf)  
+### [Week 5 – Advanced security controls and monitoring Infrastructure](week5/week5_assessments.pdf)   
+### [Week 6 – Performance evaluation and Analysis](week6/week6_assessments.pdf) 
+### [Week 7 – Security audit & system evaluation](week7/week7_assessments.pdf) 
 
 
 
