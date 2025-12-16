@@ -9,13 +9,13 @@ and short reflections on what I learned throughout the module.
 
 ## Coursework Index
 
-- [Week 1](./WEEK%201) – System planning and Linux server setup  
-- [Week 2](./WEEK%202) – Security planning and testing methodology  
+- [Week 1](./WEEK%201) – System planning and Distribution Selection
+- [Week 2](./WEEK%202) – Security planning and Testing methodology  
 - [Week 3](./WEEK%203) – Application selection for performance testing  
-- [Week 4](./WEEK%204) – SSH configuration, firewall setup, and user management  
-- [Week 5](./WEEK%205) – Advanced security controls and monitoring scripts  
-- [Week 6](./WEEK%206) – Performance evaluation and system optimisation  
-- [Week 7](./WEEK%207) – Security audit, system evaluation, and reflection  
+- [Week 4](./WEEK%204) – Initial Sytem Configuration & Security Implementation 
+- [Week 5](./WEEK%205) – Advanced security controls and monitoring Infrastructure  
+- [Week 6](./WEEK%206) – Performance evaluation and Analysis
+- [Week 7](./WEEK%207) – Security audit & system evaluation
 
 ## Student Details
 
