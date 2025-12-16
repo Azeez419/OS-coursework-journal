@@ -1,7 +1,8 @@
 ### Operating Systems Coursework Journal
 
 This repository contains my weekly Operating Systems coursework for my
-BSc Software Engineering degree at the University of Roehampton.
+### Software Engineering
+### University of Roehampton.
 
 ### WEEKLY JOURNALS
 
